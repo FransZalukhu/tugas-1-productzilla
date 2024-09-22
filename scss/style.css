@@ -1,0 +1,566 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bagian-1 {
+  background-color: rgb(36, 36, 36);
+  padding: 40px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+#bagian-1 .logo {
+  display: block;
+  margin: 0 auto;
+}
+#bagian-1 h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  max-height: 830px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+#bagian-1 h2 {
+  color: #a7a7a7;
+  font-weight: 200;
+  margin: 10px auto 60px;
+  font-size: 18px;
+  max-width: none;
+  text-align: center;
+}
+#bagian-1 h2 a {
+  color: #dcdcdc;
+}
+#bagian-1 .help-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #bbb;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+#bagian-1 .help-link:hover {
+  color: white;
+}
+#bagian-1 #slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bagian-1 #slide .img-slide {
+  max-width: 100%;
+}
+
+section {
+  display: block;
+}
+
+#tutorial {
+  padding-bottom: 20px;
+}
+
+#tutorial {
+  text-align: center;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+#tutorial .wrapper {
+  position: relative;
+  max-width: 980px;
+  margin: 0 auto;
+}
+#tutorial ol,
+#tutorial ul {
+  list-style: none;
+}
+#tutorial a {
+  color: #4183c4;
+  text-decoration: none;
+}
+#tutorial h1 {
+  margin: 90px auto 0 auto;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 60px;
+  text-align: center;
+  max-width: 910px;
+  color: #333;
+}
+#tutorial h2 {
+  text-align: center;
+  font-weight: 200;
+  line-height: 38px;
+  margin: 40px auto 0;
+  font-size: 21px;
+  max-width: 740px;
+}
+#tutorial h4 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1em;
+}
+#tutorial .tabs {
+  display: inline-block;
+  margin: 45px auto 0;
+  font-size: 0;
+}
+#tutorial .question .tabs {
+  margin: 30px auto 0;
+}
+#tutorial .tabs li {
+  display: inline-block;
+  margin: 0;
+  font-size: 15px;
+}
+#tutorial .tabs li:first-child a {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#tutorial .tabs li:last-child a {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#tutorial .tabs li:nth-child(even) a {
+  margin: 0 -1px;
+}
+#tutorial .tabs a {
+  color: #323232;
+  background-color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #dddddd;
+  position: relative;
+  line-height: 1em;
+  transition: all 0.2s ease-in-out 0s;
+}
+#tutorial .question .tabs a {
+  background-color: #fcfcfc;
+}
+#tutorial .tabs a:hover {
+  color: #327fc7;
+  border-color: #327fc7;
+  z-index: 10;
+}
+#tutorial .tabs a.selected {
+  z-index: 20;
+  color: #fff;
+  background-color: #327fc7;
+  border-color: #327fc7;
+  outline: none;
+}
+#tutorial .tutorial-list {
+  margin-top: 90px;
+  counter-reset: tutorialstep;
+  display: none;
+}
+#tutorial .tutorial-list.active {
+  display: block;
+}
+#tutorial .tutorial-list > li {
+  position: relative;
+  background-color: #fff;
+  margin: 0 0 70px 0px;
+  padding: 40px 0 60px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 1;
+  transition: all 0.6s ease-in-out 0s;
+}
+#tutorial .tutorial-list .image-right {
+  padding-right: 440px;
+}
+#tutorial .tutorial-list .image-right p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#tutorial .tutorial-list p {
+  margin: 30px 120px 30px;
+}
+#tutorial .tutorial-list p:last-child {
+  margin-bottom: 0;
+}
+#tutorial .article-left p {
+  margin-left: 0;
+  margin-right: 0;
+}
+#tutorial .tutorial-list .right-image p,
+#tutorial .tutorial-list .right-image h4 {
+  margin-left: 30px;
+}
+#tutorial .tutorial-list li .full-size {
+  margin-bottom: -66px;
+  max-width: 90%;
+}
+#tutorial .tutorial-list li .macos-drop-shadow {
+  box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
+}
+#tutorial .tutorial-list .hidden {
+  display: none;
+}
+#tutorial .tutorial-list .question {
+  text-align: center;
+}
+#tutorial .tutorial-list > li:last-child:before {
+  content: "";
+  position: absolute;
+  left: -55px;
+  top: 0;
+  height: 105%;
+  width: 10px;
+  background-color: #f5f5f5;
+}
+#tutorial .tutorial-list .right {
+  margin: -45px 0 0 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#tutorial .details {
+  font-size: 14px;
+  font-weight: 400;
+}
+#tutorial .tutorial-list .question:after {
+  content: "?";
+}
+#tutorial .tutorial-list > li:not(.question):after {
+  counter-increment: tutorialstep;
+  content: counter(tutorialstep);
+}
+#tutorial .tutorial-list > li:after {
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  background-color: #327fc7;
+  border-radius: 200px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  z-index: 100;
+}
+
+#create-repo-step {
+  background: #fff url(/tugas-1-productzilla/img/user-repo@2x.png) right 0 no-repeat;
+  background-size: 446px 328px;
+}
+
+.hero-octicon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  border: solid 1px #e5e5e5;
+  margin: 0 auto 15px;
+  display: block;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.hero-octicon:hover {
+  transform: scale(1.1);
+}
+
+.next-steps .hero-octicon {
+  margin-bottom: 35px;
+}
+
+.terminal {
+  width: 700px;
+  margin: 30px auto 0;
+}
+
+.header {
+  height: 25px;
+  display: block;
+  background: linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f7f7f7", endColorstr="#aaaaaa",GradientType=0 );
+  border: 1px solid #9c9c9c;
+  border-bottom-color: #111;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 25px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+  color: #444;
+}
+
+.shell {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 17px;
+  line-height: 28px;
+  color: #eeeb82;
+  background-color: #3d3d3d;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: left;
+  display: block;
+}
+
+.tutorial-list .shell p {
+  margin: 0;
+  font-weight: bold;
+  -webkit-backface-visibility: hidden;
+}
+
+.path {
+  color: #71cfee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding-right: 0.6em;
+}
+
+.prompt {
+  color: #d74d52;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding-right: 0.6em;
+}
+
+#next-steps {
+  margin: 80px;
+}
+#next-steps ol,
+#next-steps ul {
+  list-style: none;
+}
+#next-steps h1 {
+  margin: 90px auto 30px auto;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 60px;
+  text-align: center;
+  max-width: 910px;
+  color: #333;
+}
+#next-steps .wrapper {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+#next-steps .next-steps li:first-child,
+#next-steps .next-steps li:last-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+#next-steps .next-steps li {
+  display: table-cell;
+  text-align: center;
+  padding: 0 20px 0;
+  transition: opacity 0.8s ease-in-out 0s;
+}
+#next-steps .next-steps .hero-octicon {
+  margin-bottom: 35px;
+}
+#next-steps a {
+  color: #4183c4;
+  text-decoration: none;
+}
+#next-steps h4 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1em;
+}
+#next-steps .next-steps p {
+  font-weight: 400;
+}
+#next-steps p {
+  margin: 15px 0 30px;
+  font-weight: 300;
+  line-height: 1.7em;
+  font-size: 14px;
+}
+
+#footer {
+  position: relative;
+  font-size: 12px;
+  color: #777;
+  width: 980px;
+  padding: 40px 0;
+  margin: 70px auto 0 auto;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#footer .site-footer-links-left {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .site-footer-links-left li {
+  margin-left: 20px;
+}
+#footer .site-footer-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .site-footer-links li {
+  margin-right: 20px;
+}
+#footer a {
+  color: #4183c4;
+  text-decoration: none;
+}
+#footer .logo-2 {
+  display: block;
+  height: 25px;
+  width: 25px;
+  opacity: 30%;
+}
+
+/* Untuk layar di bawah 1024px */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .logo {
+    max-width: 80%;
+  }
+  .help-link {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  #slide .img-slide {
+    max-width: 90%;
+  }
+  .tutorial-list > li {
+    padding: 30px 0 50px;
+    font-size: 16px;
+  }
+  .tutorial-list p {
+    margin: 20px 80px 20px;
+  }
+  .terminal {
+    width: 100%;
+  }
+  .hero-octicon {
+    width: 80px;
+    height: 80px;
+  }
+  .shell {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+/* Untuk layar di bawah 768px */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .logo {
+    max-width: 70%;
+  }
+  .help-link {
+    font-size: 9px;
+    padding: 3px 6px;
+  }
+  #slide .img-slide {
+    max-width: 80%;
+  }
+  .img-slide {
+    max-width: 80%;
+    height: auto;
+  }
+  .tutorial-list > li {
+    padding: 25px 0 45px;
+    font-size: 15px;
+  }
+  .tutorial-list p {
+    margin: 15px 50px 15px;
+  }
+  .hero-octicon {
+    width: 70px;
+    height: 70px;
+  }
+  .shell {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+/* Untuk layar di bawah 480px */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  .logo {
+    max-width: 60%;
+  }
+  .help-link {
+    font-size: 8px;
+    padding: 2px 4px;
+  }
+  #slide .img-slide {
+    max-width: 70%;
+  }
+  .tutorial-list > li {
+    padding: 20px 0 40px;
+    font-size: 14px;
+  }
+  .tutorial-list p {
+    margin: 10px 20px 10px;
+  }
+  .hero-octicon {
+    width: 60px;
+    height: 60px;
+  }
+  .shell {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .site-footer-links-left,
+  .site-footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-footer-links-left li,
+  .site-footer-links li {
+    margin: 10px 0;
+  }
+  .logo-2 {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
