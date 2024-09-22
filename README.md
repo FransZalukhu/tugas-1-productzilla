@@ -20,7 +20,8 @@ Untuk Design yang Responsive, saya masih kesulitan membuat design yang responsiv
 7. Footer :
    ![image](https://github.com/user-attachments/assets/e909bccb-3618-43af-a373-195adfb76f86)
 
-8. ![image](https://github.com/user-attachments/assets/b02d0e4e-bdf9-4029-81e3-4de35c357800)
+8. Responsive???
+   ![image](https://github.com/user-attachments/assets/b02d0e4e-bdf9-4029-81e3-4de35c357800)
 
 
 
