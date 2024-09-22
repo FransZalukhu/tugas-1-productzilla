@@ -1,6 +1,6 @@
 Jujur, saya masih belum mahir dalam membuat design CSS sehingga saya masih banyak meniru struktur dan design dari 
 pada gambar 2-5 saya hampir meniru semua kode atau design css dari Github Pages itu sendiri dan hanya memodifikasinya sedikit agar sesuai dengan struktur HTML yang saya buat.
-Sedangkan pada gambar 1, 6, dan 7 saya masih bisa membuatnya sendiri tapi masih sedikit kesulitan mendesain pada gambar 6 karena saya belum familiar dengan penggunaan "octicons"
+Sedangkan pada gambar 1, 6, dan 7 saya masih bisa membuatnya sendiri tapi masih sedikit kesulitan mendesain struktur yang ada pada gambar 6 karena saya belum familiar dengan penggunaan "octicons"
 yang digunakan pada halaman Github Pages.
 
 
