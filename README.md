@@ -2,7 +2,7 @@ Jujur, saya masih belum mahir dalam membuat design CSS yang baik dan responsive 
 pada gambar 2-5 saya hampir meniru semua kode atau design css dari Github Pages itu sendiri dan hanya memodifikasinya sedikit agar sesuai dengan struktur HTML yang saya buat.
 Sedangkan pada gambar 1, 6, dan 7 saya masih bisa membuatnya sendiri tapi masih sedikit kesulitan mendesain struktur yang ada pada gambar 6 karena saya belum familiar dengan penggunaan "octicons"
 yang digunakan pada halaman Github Pages.
-Untuk Design yang Responsive, saya masih kesulitan membuat design yang responsive 😢😔😓, bisa dilihat pada gambar 8 😭
+Untuk Design yang Responsive, saya masih kesulitan membuat design yang responsive 😔😓, bisa dilihat pada gambar 8 😭
 
 
 1. ![image](https://github.com/user-attachments/assets/66c154a8-7cde-469c-87c2-73836da88f4a)
